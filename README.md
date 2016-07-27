@@ -19,3 +19,7 @@ Execution times are not really coherent between each run, even when aio api seem
 Changing the file size does not affect the results.
 
 Probably the test environment is not really appropiate (Linux VM machine running on a Win10 host machine + SSD drive)
+
+# Todo
+More error checking and reporting api
+Testing it on other scenarios.
