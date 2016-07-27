@@ -13,6 +13,13 @@ Testing performance of reading files using the POSIX asynchronous I/O api (aio)
 	Sync read completed in 10802 us
 	All ok
 
+	# Another execution	
+	Creating 256 dummy files
+	AIO read completed in 4330 us
+	All ok
+	Sync read completed in 3892 us
+	All ok
+
 # Conclusions
 Execution times are not really coherent between each run, even when aio api seems to be faster than sync reads, sometimes this is not true.
 
